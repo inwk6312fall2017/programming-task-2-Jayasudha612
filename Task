@@ -1,3 +1,7 @@
 import csv
 import datetime
-with open("programming-task-2-Jayasudha612/Crime.csv", 'rb') as f:            
+with open("programming-task-2-Jayasudha612/Crime.csv", 'rb') as f:    
+ reader = csv.reader(f, delimiter=' ')
+    count=0             
+    for row in reader:
+
