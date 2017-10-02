@@ -1,6 +1,20 @@
 import csv
- 
+
+objectid = []
+evt_rt = []
+evt_rin = []
+evt_date = []
+location = []
+rucr = []
+rucr_ext_d = []
+
 with open('crime.csv') as csvDataFile:
     csvReader = csv.reader(csvDataFile)
     for row in csvReader:
-        print(row)
+        objectid.append(row[0])
+        evt_rt.append(row[1])
+        evt_rin.append(row[2])
+        evt.date.append(row[3])
+        location.append(row[4])
+        rucr.append(row[5])
+        rucr_ext_d.append(row[6])
