@@ -18,3 +18,8 @@ with open('crime.csv') as csvDataFile:
         location.append(row[4])
         rucr.append(row[5])
         rucr_ext_d.append(row[6])
+        
+for crime_id in rucr():
+   print(crime_id)
+
+
