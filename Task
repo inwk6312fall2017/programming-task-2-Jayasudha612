@@ -19,7 +19,10 @@ with open('crime.csv') as csvDataFile:
         rucr.append(row[5])
         rucr_ext_d.append(row[6])
         
+counter = 0
 for crime_id in rucr():
    print(crime_id)
+   counter+=1 
+   
 
 
